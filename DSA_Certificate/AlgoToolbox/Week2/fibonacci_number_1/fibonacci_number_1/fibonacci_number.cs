@@ -12,7 +12,7 @@ namespace fibonacci_number_1
         {
             if (n <= 1)
                 return n;
-            Int64 prev2 = 1;
+            Int64 prev2 = 0;
             Int64 prev1 = 1;
             Int64 current = 2;
             for (Int64 i = 2; i <= n; i++)
